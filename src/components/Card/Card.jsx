@@ -1,12 +1,22 @@
 import React from 'react'
+import ArrowIcon from '../common/ArrowIcon'
 
 
-const Card = ({imagePath,title}) => {
+const Card = ({imagePath,title,description,actionArrow,height,width}) => {
   return (
     <div className='flex  flex-col p-8'>
-        <img className='max-h-[260px] max-w-[240px] min-h-[260px] min-w-[240px] bg-cover bg-center rounded hover:scale-105 cursor-pointer'
-        src={imagePath} height={"320px"} width={"420px"} alt={title}></img>
-        <p className='text-[14px] pt-[5px]'>{title}</p>
+        <img className={` h-[270px] w-[250px] bg-cover bg-center rounded hover:scale-105 cursor-pointer `}
+        src={imagePath} alt={title} />
+        <div className='flex justify-between items-center'>
+          <div className='flex flex-col'>
+            <p className='text-[16px] p-1'>{title}</p>
+            {description && <p className='text-[12px] px-1 text-gray-600'>{description}</p>}
+
+          </div>
+          {actionArrow && <span className='cursor-pointer pr-2 items-center'><ArrowIcon /> </span>}
+          
+        </div>
+        
     </div>
   )
 }
