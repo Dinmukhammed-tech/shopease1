@@ -1,13 +1,39 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import Shop from './Shop.jsx'
+import { router } from './router.jsx'
 import 'react-multi-carousel/lib/styles.css';
-
+import { RouterProvider } from 'react-router-dom';
+import Navigation from './components/Navigation/Navigation.jsx';
+import content  from './data/content.json'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Shop />
-  </StrictMode>,
-)
+    
+    
+
+    
+    
+    
+    <RouterProvider router={router} >
+      <Navigation />
+      
+
+    </RouterProvider>
+      
+
+     
+    
+   
+    
+
+    
+  </StrictMode>
+  );
+
+
+
+
+
+
 

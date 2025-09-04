@@ -1,8 +1,11 @@
 
 
 {
-    "categories":[
-        {
+
+    "pages":{
+      "shop":{
+        "sections":[
+            {
             "title":"Categories For Woman",
             "data":[
                 {
@@ -51,6 +54,58 @@
                     "description":"Explore Now!",
                     "image":"src/assets/img/category-men-polo-t-shirts.jpg"   
                 }
+
+            ]
+        }
+            
+        ]
+      }  
+    },
+    "categories":[
+        {
+            "id":1,
+            "name":"Men",
+            "code":"MEN",
+            "description":"Men's Clothing",
+            "types":[
+                {
+                    "id":1,
+                    "name":"Jeans",
+                    "description":"Men's jeans"
+                },
+                {
+                    "id":2,
+                    "name":"Shirts",
+                    "description":"Men's Shorts"
+                },
+                {
+                    "id":4,
+                    "name":"T-shirts",
+                    "description":"Men's t-shirts"
+
+                },
+                {
+                    "id":14,
+                    "name":"Hoodie's",
+                    "description":"Men's Hoodie"
+                }
+            ]
+        },
+        {
+            "id":2,
+            "name":"Women",
+            "code":"WOMEN",
+            "description":"Women's Clothing",
+            "types":[
+
+            ]
+        },
+        {
+            "id":3,
+            "name":"Kids",
+            "code":"KIDS",
+            "description":"Kids Clothing",
+            "types":[
 
             ]
         }
