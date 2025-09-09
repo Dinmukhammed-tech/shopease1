@@ -1,6 +1,9 @@
 import React, { useMemo } from 'react'
 import FilterIcon from '../../components/common/FilterIcon'
 import content from '../../data/content.json';
+import Categories from'../../components/Filters/Categories'
+import PriceFilter from '../../components/Filters/PriceFilter';
+import ColorFilter from '../../components/Filters/ColorFilter';
 
 const categories = content?.categories;
 
@@ -24,7 +27,19 @@ const ProductListPage = ({categoryType}) => {
           </div>
 
           <div>
+            <div>
+            {/* Product Types */}
             <p className='text-[16px] text-black mt-5'>Categories</p>
+            <Categories types={categoryContent?.types}/>
+            <hr></hr>
+            </div>
+            {/* Price */}
+            <PriceFilter /> 
+            <hr></hr>
+            {/* Colors */}
+            <ColorFilter colors={categoryContent?.meta_data?.colors}/>
+            <hr></hr>
+            {/* Sizes */}
           </div>
           
         </div>
