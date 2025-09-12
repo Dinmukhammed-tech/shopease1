@@ -14,7 +14,7 @@ const PriceFilter = () => {
 
 
   return (
-    <div>
+    <div className='flex flex-col mb-4'>
       <p className='text-[16px] text-black mt-5 mb-5'>
         Price
       </p>
