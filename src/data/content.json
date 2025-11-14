@@ -264,8 +264,8 @@
         "size": ["S", "M", "L"],
         "color": ["Black","Blue"],
         "discount": 20,
-        "thumbnail": "src/assets/img/switshirt-black.jpg",
-        "images": ["src/assets/img/sweatshirt.jpg", "src/assets/imag/sweatshirt.jpg"],
+        "thumbnail": "/img/switshirt-black.jpg",
+        "images": ["/img/whitet-shirt.jpg", "/img/switshirt-black.jpg"],
         "rating": 4.8
       },
       {
@@ -279,8 +279,8 @@
         "size": ["S", "M", "L"],
         "color": ["White"],
         "discount": 15,
-        "images": ["src/assets/img/whitet-shirt.jpg", "./images/whitet-shirt.jpg"],
-        "thumbnail": "src/assets/img/whitet-shirt.jpg",
+        "images": ["/img/whitet-shirt.jpg", "/img/whitet-shirt.jpg"],
+        "thumbnail": "/img/whitet-shirt.jpg",
         "rating": 4.5
       },
       {
@@ -294,8 +294,8 @@
         "size": ["S", "M", "L"],
         "color": ["Purple"],
         "discount": 10,
-        "images": ["./images/hoodie-purple.jpg", "./images/hoodie-purple.jpg"],
-        "thumbnail": "src/assets/img/hoodie-purple.jpg",
+        "images": ["/img/hoodie-purple.jpg", "/img/hoodie-purple.jpg"],
+        "thumbnail": "/img/hoodie-purple.jpg",
         "rating": 4.6
       },
       {
@@ -340,7 +340,7 @@
         "color": ["Black"],
         "discount": 15,
         "images": ["shorts-black1.jpg", "shorts-black2.jpg"],
-        "thumbnail": "src/assets/img/switshirt-black.jpg",
+        "thumbnail": "https://codedev.b-cdn.net/products/crop-top-white.jpeg",
         "rating": 4.5
       },
       {
